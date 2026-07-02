@@ -78,5 +78,3 @@ pgAdmin Login Credentials:
 
 
 ---
-the host address) • Port: 5432 • Maintenance database: dev_db • Username: admin • Password: myadmin
-6. Click Save, and you are ready to build your database!
