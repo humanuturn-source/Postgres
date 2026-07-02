@@ -33,12 +33,12 @@ docker run --name postgres-db \\
 ```
 
 Database Configuration Reference:
-• Container Name: postgres-db
-• Network: pg-network
-• Username: admin
-• Password: myadmin
-• Default Database: dev_db
-• Local Port: 5432
+* Container Name: postgres-db
+* Network: pg-network
+* Username: admin
+* Password: myadmin
+* Default Database: dev_db
+* Local Port: 5432
 
 
 ### Step 3: Deploy the pgAdmin Management Tool Container
@@ -55,9 +55,9 @@ docker run --name pgadmin-tool \\
 ```
 
 pgAdmin Login Credentials:
-• Web Interface URL: http://localhost:5050
-• Email / Username: sethrajaram100@gmail.com
-• Password: pgadmin
+* Web Interface URL: http://localhost:5050
+* Email / Username: sethrajaram100@gmail.com
+* Password: pgadmin
 
 
 ### Step 4: Connecting pgAdmin to Your Postgres Database
