@@ -68,7 +68,7 @@ pgAdmin Login Credentials:
 4. Under the General tab, name the connection (e.g., Local Dev DB).
 5. Under the Connection tab, use the following configuration:
   
-• Host name/address: postgres-db (Note: Since they share a Docker network, you can use the container name as the host) 
+• Host name/address: postgres-db (Note: Since they share a Docker network, you can use the container name as the host).
 • Port: 5432 
 • Maintenance database: dev_db 
 • Username: admin 
