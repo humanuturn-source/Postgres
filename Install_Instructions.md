@@ -67,11 +67,11 @@ pgAdmin Login Credentials:
 3. Right-click on Servers -> Register -> Server...
 4. Under the General tab, name the connection (e.g., Local Dev DB).
 5. Under the Connection tab, use the following configuration:  
-  • Host name/address: postgres-db
-  • Port: 5432 
-  • Maintenance database: dev_db 
-  • Username: admin 
-  • Password: myadmin
+  * Host name/address: postgres-db
+  * Port: 5432 
+  * Maintenance database: dev_db 
+  * Username: admin 
+  * Password: myadmin
 
 6. Click Save, and you are ready to build your database!
 
