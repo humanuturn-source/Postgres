@@ -48,7 +48,7 @@ To easily view and manage your data through a web interface, deploy the pgAdmin 
 
 docker run --name pgadmin-tool \\
   --network pg-network \\
-  -e PGADMIN_DEFAULT_EMAIL=sethrajaram100@gmail.com \\
+  -e PGADMIN_DEFAULT_EMAIL=sample@gmail.com \\
   -e PGADMIN_DEFAULT_PASSWORD=pgadmin \\
   -p 5050:80 \\
   -d dpage/pgadmin4
@@ -69,7 +69,8 @@ pgAdmin Login Credentials:
 5. Under the Connection tab, use the following configuration:
   
 • Host name/address: postgres-db (Note: Since they share a Docker network, you can use the container name as the host) 
-• Port: 5432 • Maintenance database: dev_db 
+• Port: 5432 
+• Maintenance database: dev_db 
 • Username: admin 
 • Password: myadmin
 
